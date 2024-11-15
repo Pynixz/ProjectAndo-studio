@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <!-- Center text elements -->
+    <!-- Number 6 below bomb icon -->
+    <TextView
+        android:id="@+id/number_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_below="@id/bomb_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp" />
+
+    <!-- Text "DE KODAM" -->
+    <TextView
+        android:id="@+id/de_kodam_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DE KODAM"
+        android:textColor="#FF0000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/number_six"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- Vertical line below "DE KODAM" -->
+    <View
+        android:id="@+id/vertical_line"
+        android:layout_width="1dp"
+        android:layout_height="24dp"
+        android:background="#FFFFFF"
+        android:layout_below="@id/de_kodam_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- Number 9 below the line -->
+    <TextView
+        android:id="@+id/number_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_below="@id/vertical_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- Bottom icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="32dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:background="@drawable/red_icon" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:background="@drawable/red_icon"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:background="@drawable/red_icon"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:background="@drawable/red_icon"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:background="@drawable/red_icon"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <!-- Footer Loading Text -->
+    <TextView
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading... Please wait patiently!"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp" />
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <!-- Top text elements -->
+    <!-- Number 6, "Pick Your Kodam", Number 9 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/number_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/pick_your_kodam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Pick Your Kodam "
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/number_nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <!-- Image Grid Section with equal spacing -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pick_your_kodam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="8dp">
+
+        <!-- First Image -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:src="@drawable/image1"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_corner_background" />
+
+        <!-- Second Image -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:src="@drawable/image2"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_corner_background" />
+
+        <!-- Third Image -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:src="@drawable/image3"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_corner_background" />
+
+        <!-- Fourth Image -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="15dp"
+            android:src="@drawable/image4"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_corner_background" />
+    </GridLayout>
+
+    <!-- Bottom icons row with precise alignment -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="25dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:src="@drawable/red_icon" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:src="@drawable/red_icon"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_bomb"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:src="@drawable/red_icon"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="48dp"
+            android:src="@drawable/red_icon"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

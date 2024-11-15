@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"> <!-- Menggunakan gradien merah-hitam -->
+
+    <!-- Ikon Bom Merah -->
+    <ImageView
+        android:id="@+id/bomb_icon"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_bomb" /> <!-- Ganti dengan gambar bom Anda -->
+
+    <!-- Angka 6 di bawah ikon bom -->
+    <TextView
+        android:id="@+id/number_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_below="@id/bomb_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp" />
+
+    <!-- Teks De KODAM -->
+    <TextView
+        android:id="@+id/de_kodam_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DE KODAM"
+        android:textColor="#FF0000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/number_six"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- Garis vertikal di sebelah teks De KODAM -->
+    <View
+        android:id="@+id/vertical_line"
+        android:layout_width="1dp"
+        android:layout_height="24dp"
+        android:background="#FFFFFF"
+        android:layout_below="@id/de_kodam_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+    <!-- Angka 9 di bawah teks De KODAM -->
+    <TextView
+        android:id="@+id/number_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_below="@id/vertical_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- Tombol Start di bagian bawah -->
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF0000"
+        android:textStyle="bold"
+        android:layout_marginTop="140dp"
+        android:layout_below="@id/number_nine"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

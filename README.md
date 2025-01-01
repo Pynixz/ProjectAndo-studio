@@ -13,23 +13,27 @@ Aplikasi pilih kodam yang sedang tren saat ituh,saya membuat aplikasi ini dituju
 ## Sudah Pada Tahap Pengembangan
 
 -  Play screen
-![Screenshot 2025-01-01 215136](https://github.com/user-attachments/assets/4d299c2f-b2d7-4481-bfe8-e8153914fa1e)
+![Screenshot 2025-01-01 215136](https://github.com/user-attachments/assets/343e7c8a-3eb9-436f-8d3b-2c22d8d97573)
 (Update)
 
 -  Loading screen
-![Screenshot 2025-01-01 215143](https://github.com/user-attachments/assets/e1a7aec3-7c8e-4d4a-8cc3-1c69d1ab9289)
+![Screenshot 2025-01-01 215143](https://github.com/user-attachments/assets/15e2ad37-a3e8-4fe6-b2e2-379f646803f6)
 (Update)
 
 -  Pick Char Kodam
-![Screenshot 2025-01-01 215149](https://github.com/user-attachments/assets/74204d98-553a-4b0d-b90d-ad19eebc17cb)
-![Screenshot 2025-01-01 215154](https://github.com/user-attachments/assets/caf5eae3-6809-45d3-a79d-b6ddc16e1828)
-![Screenshot 2025-01-01 215202](https://github.com/user-attachments/assets/8a95b521-9a4c-4303-ab07-0d78e295cffa)
-![Screenshot 2025-01-01 215208](https://github.com/user-attachments/assets/a3ba2877-ae2e-4eec-af9f-2c471c5ff1f6)
+![Screenshot 2025-01-01 215149](https://github.com/user-attachments/assets/96dd7deb-e3aa-431f-9aed-33aa5bffc490)
 (Update)
 
+-  Select Char
+![Screenshot 2025-01-01 215154](https://github.com/user-attachments/assets/061a3af5-0afe-4d49-a965-0fe6cd36caf2)
+![Screenshot 2025-01-01 215202](https://github.com/user-attachments/assets/1ccd8c7c-bbee-4121-a10b-5efc41773fdb)
+![Screenshot 2025-01-01 215208](https://github.com/user-attachments/assets/82c30eec-c07a-4e7a-abe0-3bc7614ec9df)
+![Screenshot 2025-01-01 215213](https://github.com/user-attachments/assets/639461b2-2610-4452-978f-25093af278eb)
+(New)
+
 -  End
-![Screenshot 2025-01-01 215213](https://github.com/user-attachments/assets/19cc1952-c06f-4067-a3e0-571e2543c775)
-(Updtae)
+![Screenshot 2025-01-01 220950](https://github.com/user-attachments/assets/a2255317-b7ba-41be-948b-44035a929000)
+(New)
 
 # Story-Board
 -  ini adalah bagaimana urutan aplikasi berjalan 
